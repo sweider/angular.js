@@ -194,6 +194,7 @@ Let's turn our attention to the E2E tests.
           });
         }
 
+        queryField.clear();
         queryField.sendKeys('tablet');   // Let's narrow the dataset to make the assertions shorter
 
         expect(getNames()).toEqual([
